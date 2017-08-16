@@ -1,0 +1,96 @@
+h1 {
+	color: blue;
+	font-family: times,sans-serif;
+	font-size: 50px;
+	text-align: center;
+	font-style: italic;
+}
+
+div.landmarks h2 {
+	font-style: italic;
+	font-weight: bold;
+	font-family: Times, sans-serif;
+}
+
+div.landmarks h3 {
+	font-style: italic;
+	font-family: Helvetica;
+	font-size: 20px;
+	color: red;
+}
+
+div.landmarks p {
+	font-size: 20px;
+	font-family: times, sans-serif;
+}
+
+label {
+	font-size: 20px;
+	color: red;
+	font-family: times, sans-serif;
+}
+
+p {
+	font-size: 20px;
+	font-family: times,sans-serif;
+}
+
+body {
+	background-color: lightgrey;
+}
+
+.carousel-image {
+	width: 100%;
+	height: 30%;
+}
+#para
+{
+    padding-right: 250px;  
+    padding-left: 250px;
+}
+
+div.carousel-caption {
+	text-align: left;
+	padding-right: 250px;
+	color: white;
+}
+
+.btn-success:hover {
+	transition: transform 1s ease;
+	transform: rotate(360deg);
+}
+
+div.logos {
+	padding-top: 50px;
+	padding-right: 450px;
+	padding-bottom: 50px;
+}
+
+a img {
+	width: 50px;
+	height: 50px;
+	margin-right: 15px;
+
+}
+
+legend {
+	color: red;
+	font-family: times,sans-serif;
+	font-size: 40px;
+}
+
+form input {
+	font-family: times,sans-serif
+	font-size:30px;
+	font-weight: bold;
+}
+
+fieldset input[type=text] {
+    border: 2px solid black;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.niagara {
+	padding-top: 50px;
+}
