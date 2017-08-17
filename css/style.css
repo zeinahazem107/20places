@@ -137,7 +137,20 @@ div.about h1 {
    top: 100px; 
    left: 0; 
    width: 100%; 
-   color: blue;
+   color: black;
    font-size: 100px;
 
+}
+
+form.form-horizontal {
+	background-color: lightgrey;
+	
+}
+
+label {
+	color: black;
+}
+
+div.intro h1 {
+	color: black;
 }

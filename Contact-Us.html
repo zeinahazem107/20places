@@ -48,20 +48,76 @@ div.about h1 {
 	<h1>Contact Us</h1>
   </div>
 
-<form role='form'>
-  <fieldset>
-    <legend>Personal information:</legend>
-    <span class="contact">First name:</span><br> 
-    <input type="text" name="firstname"><br>
-    <span class="contact">Last name:</span><br>
-    <input type="text" name="lastname"><br>
-    <span class="contact">Email:</span><br>
-    <input type="text" name="email"><br>
-    <span class="contact">Phone Number:</span><br>
-    <input type="text" name="phonenumber"><br><br>
-    <input type="submit" class="btn btn-success">
-  </fieldset>
-</form>
+  <div class="container">
+  <div class="row">
+      <div class="col-md-6 col-md-offset-3">
+        <div>
+          <form class="form-horizontal" action="" method="post">
+          <fieldset>
+            <legend class="text-center">Personal Information</legend>
+    
+            <!-- Name input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="name">Name</label>
+              <div class="col-md-9">
+                <textarea id="name" name="name" type="text" placeholder="Your name" class="form-control"></textarea>
+              </div>
+            </div>
+    
+            <!-- Email input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="email">Your E-mail</label>
+              <div class="col-md-9">
+                <textarea id="email" name="email" type="text" placeholder="Your email" class="form-control"></textarea>
+              </div>
+            </div>
+
+             <!-- Phone input-->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="phone number">Your Phone Number</label>
+              <div class="col-md-9">
+                <textarea id="phone" name="phone" type="text" placeholder="Your phone" class="form-control"></textarea>
+              </div>
+            </div>
+    
+            <!-- Message body -->
+            <div class="form-group">
+              <label class="col-md-3 control-label" for="message">Your message</label>
+              <div class="col-md-9">
+                <textarea class="form-control" id="message" name="message" placeholder="Please enter your message here..." rows="5"></textarea>
+              </div>
+            </div>
+    
+            <!-- Form actions -->
+            <div class="form-group">
+              <div class="col-md-12 text-right">
+                <button type="submit" class="btn btn-success btn-lg">Submit</button>
+              </div>
+            </div>
+          </fieldset>
+          </form>
+        </div>
+      </div>
+  </div>
+</div>
+
+<div class="logos">
+<div class="col-md-4"></div>
+<div class="col-md-4"></div>
+  <a href="http://www.twitter.com" target="_blank">
+  <img src="Images/Twitter-icon.png" alt="Twitter-icon">
+  </a>
+
+  <a href="http://www.instagram.com" target="_blank">
+  <img src="Images/Instagram-logo.png" alt="Instagram-icon">
+  </a>
+
+  <a href="http://www.facebook.com/" target="_blank">
+  <img src="Images/facebook.png" alt="Facebook-icon">
+  </a>
+  <!--jhsdj-->
+</div>
+
 
 	
 </body>
