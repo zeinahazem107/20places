@@ -4,6 +4,12 @@
 	<title>Contact Us</title>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
+   <link href='https://fonts.googleapis.com/css?family=Berkshire Swash' rel='stylesheet'>
+  <style>
+div.about h1 {
+    font-family: 'Berkshire Swash';font-size: 100px;
+}
+</style>
 </head>
 
 <body>
@@ -31,20 +37,27 @@
 </nav>
 <br>
 <br>
-	
 
+ <div id="wrapperHeader">
+    <div id="header">
+             <img src="Images/earth.png" width="1400" height="250" alt="logo" />
+    </div>  
+</div>
+	
+<div class="about">
 	<h1>Contact Us</h1>
+  </div>
 
 <form role='form'>
   <fieldset>
     <legend>Personal information:</legend>
-    First name:<br> 
+    <span class="contact">First name:</span><br> 
     <input type="text" name="firstname"><br>
-    Last name:<br>
+    <span class="contact">Last name:</span><br>
     <input type="text" name="lastname"><br>
-    Email:<br>
+    <span class="contact">Email:</span><br>
     <input type="text" name="email"><br>
-    Phone Number:<br>
+    <span class="contact">Phone Number:</span><br>
     <input type="text" name="phonenumber"><br><br>
     <input type="submit" class="btn btn-success">
   </fieldset>
